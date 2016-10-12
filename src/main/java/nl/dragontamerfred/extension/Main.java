@@ -4,12 +4,12 @@ import javax.swing.*;
 
 public class Main {
 
-    public static JFrame frame = new JFrame("");
-    public static JLabel lbl1 = new JLabel();
-    public static JButton btn1 = new JButton();
+    private static JFrame frame = new JFrame("");
+    private static JLabel lbl1 = new JLabel();
+    private static JButton btn1 = new JButton();
 
     public static void main(String[] args) {
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLayout(null);
         frame.setVisible(true);
         frame.setBounds(300, 400, 400, 400);
